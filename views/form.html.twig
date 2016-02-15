@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    <title>Clock Angle Calculator</title>
+</head>
+<body>
+    <div class='container'>
+        <h1>Clock Angle Calculator</h1>
+        <p>Enter the time on the clock you'd like to find the angle for.</p>
+        <form action='/angle'>
+            <div class='form-group'>
+              <label for='hour'>Hour</label>
+              <input id='hour' name='hour' class='form-control' type='number' max="12" min="1">
+              <label for='minute'>Minute:</label>
+              <input id='minute' name='minute' class='form-control' type='number' max="60" min="0">
+            </div>
+            <button type='submit' class='btn-success'>Find Angle</button>
+        </form>
+    </div>
+</body>
+</html>
